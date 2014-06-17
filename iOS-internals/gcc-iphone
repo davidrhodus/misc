@@ -1,0 +1,6 @@
+gcc -arch armv7 -framework IOKit -framework CoreFoundation -F
+/Applications/Utilities/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks -I 
+/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks -I
+/Developer/Platforms/iPhoneOS.platform/DeviceSupport/Latest/Symbols/usr/include -L
+/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/lib -L
+/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/lib/system $* 
